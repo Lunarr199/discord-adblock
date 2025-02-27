@@ -184,3 +184,8 @@ div[class^="inner_"] > div[class^="body_"] > div[class^="upsellContainer_"] {
 div[class^=notice_][class*=colorPremium_] {
   display: none;
 }
+
+/* Bookmarks with Nitro popout */
+div[id^=popout_]:has(div[class*="upsellTooltipWrapper__"]) {
+  display: none;
+}
