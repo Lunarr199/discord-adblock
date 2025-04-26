@@ -103,3 +103,8 @@ display: none;
 div[class^="interactive_"]>div[class^=container__]:has(div[class^=videoContainer__]) {
   display: none;
 }
+
+/* Clan badges in guild user list */
+[class*="chipletContainerInner_"]:has([src*="/clan-badges/"]) {
+  display: none;
+}
