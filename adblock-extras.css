@@ -108,3 +108,8 @@ div[class^="member__"] > div[class*="nameplated__"] > div[class^="container__"]:
 [class*="chipletContainerInner_"]:has([src*="/clan-badges/"]) {
   display: none;
 }
+
+/* Community badge/tag thing */
+span[class^="chipletContainerInner__"]:has(img[class^="badge__"]) {
+  display: none;
+}
