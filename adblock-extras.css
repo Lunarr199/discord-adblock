@@ -99,8 +99,8 @@ div[class^="categoryItemDefaultCategory_"]:has(path[d="M14.24 1.03a1 1 0 0 1 .73
 display: none;
 }
 
-/* Animated nameplate */
-div[class^="interactive_"]>div[class^=container__]:has(div[class^=videoContainer__]) {
+/* Nameplate */
+div[class^="member__"] > div[class*="nameplated__"] > div[class^="container__"]:has(div[class^="videoContainer__"]) {
   display: none;
 }
 
